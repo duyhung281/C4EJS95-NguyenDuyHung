@@ -1,31 +1,30 @@
 Bài 1:
-1.	What are var and const in JavaScript?
+1. What are var and const in JavaScript?
 Trả lời:
-Trong Javascript, var và const là hai từ khóa dùng để khai báo biến, khai báo hằng.
-2.	What are the differences between let and var?
+- Trong Javascript, var và const là hai từ khóa dùng để khai báo biến, khai báo hằng.
+2. What are the differences between let and var?
 Trả lời:
-	Sự khác nhau giữa let và var:
--	Trước tiên, ta phải hiểu scope là gi? Scope tất cả những thứ nằm trong cặp ngoặc nhọn {}.
--	Phạm vi hoạt động của let không thể thoát khỏi scope khi let nằm bên trong scope.
--	Ngược lại, var có khả năng làm cho biến có thể hoạt động cả trong lẫn ngoài scope.
--	Tuy let có phạm vi hoạt động nhỏ hơn var nhưng lại chặt chẽ hơn var.
-3.	What are the differences between let and const?
+- Sự khác nhau giữa let và var:
++ Trước tiên, ta phải hiểu scope là gi? Scope tất cả những thứ nằm trong cặp ngoặc nhọn {}.
++ Phạm vi hoạt động của let không thể thoát khỏi scope khi let nằm bên trong scope.
++ Ngược lại, var có khả năng làm cho biến có thể hoạt động cả trong lẫn ngoài scope.
++ Tuy let có phạm vi hoạt động nhỏ hơn var nhưng lại chặt chẽ hơn var.
+3. What are the differences between let and const?
 Trả lời:
-Sự khác nhau giữa let và const:
--	Khi khai báo một biến bằng let thì giá trị của biến đó có thể thay đổi sau này.
--	Ngược lại, khi khai báo một biến bằng const thì biến đó được xem như là hằng số không thể thay đổi giá trị trong suốt vòng đời của biến đó.
-4.	What to use in what cases?
--	Dùng var để khai báo biến khi ta muốn biến đó hoạt động cả trong lẫn ngoài scope và giá trị của biến có thể thay đổi được
--	Dùng let để khai báo biến khi ta muốn phạm vị hoạt động của biến đó nằm trong hoặc ngoài scope và biến đó có thể thay đổi đối với từng phạm vi.
--	Dùng const để khai báo một biến có giá trị không đổi trong suốt vòng đời của biến đó.
-
-
+- Sự khác nhau giữa let và const:
++ Khi khai báo một biến bằng let thì giá trị của biến đó có thể thay đổi sau này.
++ Ngược lại, khi khai báo một biến bằng const thì biến đó được xem như là hằng số không thể thay đổi giá trị trong suốt vòng đời của biến đó.
+4. What to use in what cases?
+Trả lời:
+- Dùng var để khai báo biến khi ta muốn biến đó hoạt động cả trong lẫn ngoài scope và giá trị của biến có thể thay đổi được
+- Dùng let để khai báo biến khi ta muốn phạm vị hoạt động của biến đó nằm trong hoặc ngoài scope và biến đó có thể thay đổi đối với từng phạm vi.
+- Dùng const để khai báo một biến có giá trị không đổi trong suốt vòng đời của biến đó.
 
 Bài 2:
-1.	What is Boolean?
+1. What is Boolean?
 Trả lời:
--	Boolean là một kiểu dữ liệu được dùng để xác định giá trị cho các biểu thức logic trong các câu lệnh điều kiện.
-2.	What results in Boolean?
+- Boolean là một kiểu dữ liệu được dùng để xác định giá trị cho các biểu thức logic trong các câu lệnh điều kiện.
+2. What results in Boolean?
 Trả lời:
--	Kết quả trả về của boolean là true hoặc false.
+- Kết quả trả về của boolean là true hoặc false.
 
