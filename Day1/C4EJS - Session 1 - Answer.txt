@@ -1,0 +1,27 @@
+Bài 1:
+1.	In JavaScript, in what cases, you will get the SyntaxError telling you that some of your variables have invalid names?
+Trả lời: 
+-	Dựa vào quy tắc đặt tên biến, nếu tên biến của ta không hợp lệ thì có các trường hợp có thể xảy ra với tên biến như sau:
+•	Bắt đầu bằng số.
+•	Chứa những ký tự đặc biệt, kể cả khoảng trắng, ngoại trừ “_” và “$”.
+•	Trùng với các từ khóa (keywords) của Javascript.
+•	Tên biến tồn tại không phải duy nhất.
+Can you give 3 different examples of invalid variable names?
+Trả lời:
+-	3 ví dụ về tên biến không hợp lệ:
+•	22 (bắt đầu bằng số)
+•	mind-x (chứa ký tự đặc biệt)
+•	while (trùng với từ khóa của Javascript
+2.	In JavaScript, how to check a variable data types?
+Trả lời:
+-	Trong Javascrip, có tất cả 7 kiểu dữ liệu của biến: string, number, boolean, null, undifined, array.
+-	Ở đây ta sẽ tìm hiểu cách nhận biết kiểu string và kiểu number. Để kiểm tra xem biến của ta thuộc kiểu dữ liệu nào thì ta sẽ dựa vào đặc điểm nhận biết giữa kiểu string và kiểu number như sau:
+•	Dữ liệu thuộc kiểu String là một chuỗi các ký tự được bọc trong dấu quotes.
+o	Trong JavaScript, có 3 loại quotes:
+o	Dấu nháy kép (Double quotes): javascript"TechKids"
+o	Dấu nháy đơn (Single quotes): javascript'TechKids'
+o	Backticks: ``` javascript`TechKids````
+•	Kiểu dữ liệu Number biểu diễn các dữ liệu thuộc dạng Số, bao gồm cả số nguyên (integer) và số thực (float), có thể chứa dấu (-) để biểu thị số âm.
+•	Nếu một số được đặt bên trong quotes thì sẽ tính là String
+Bài 2:
+	Trả lời: 1 – b, 2 – a, 3 – e, 4 – c
